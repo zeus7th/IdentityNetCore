@@ -1,76 +1,101 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
-
-<p>Última actualización: 10/09/2024</p>
-
-<p>1. Introducción</p>
-
-<p>Bienvenido a IdentityNetCore. Nos comprometemos a proteger tu privacidad y a garantizar que tu experiencia con nosotros sea segura y satisfactoria. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información personal cuando usas nuestra aplicación IdentityNetCore.</p>
-
-<p>2. Información que Recopilamos</p>
-
-<p>Recopilamos la siguiente información:</p>
-
-<p>Información Personal: Incluye nombre, dirección de correo electrónico, y cualquier otra información que decidas proporcionarnos.
-    Información de Uso: Incluye datos sobre cómo usas nuestra aplicación, como la fecha y hora de acceso, las páginas visitadas y otra información sobre el uso.
-</p>
-<p>
-    3. Cómo Usamos Tu Información
-</p>
-<p>
-    Usamos la información recopilada para:
-</p>
-<p>
-    Proporcionar, operar y mantener nuestra aplicación.
-    Mejorar y personalizar tu experiencia con nuestra aplicación.
-    Comunicarnos contigo, incluyendo enviar notificaciones y actualizaciones.
-    Realizar análisis para mejorar nuestro servicio.
-</p>
-<p>
-    4. Cómo Compartimos Tu Información
-</p>
-<p>
-    No compartimos tu información personal con terceros, excepto en los siguientes casos:
-</p>
-<p>
-    Proveedores de Servicios: Podemos compartir información con proveedores de servicios que nos ayudan a operar nuestra aplicación, siempre que estos proveedores se comprometan a proteger tu información.
-    Cumplimiento Legal: Podemos divulgar información si es necesario para cumplir con una obligación legal o para proteger nuestros derechos.
-</p>
-<p>
-    5. Seguridad
-</p>
-<p>
-    Implementamos medidas de seguridad para proteger tu información personal. Sin embargo, ninguna transmisión de datos a través de Internet o método de almacenamiento electrónico es 100% seguro, por lo que no podemos garantizar una seguridad absoluta.
-</p>
-<p>
-    6. Tus Derechos
-</p>
-<p>
-    Dependiendo de tu ubicación, puedes tener ciertos derechos relacionados con tu información personal, como el acceso, la corrección o la eliminación de tus datos. Si deseas ejercer estos derechos, contáctanos a través de [dirección de correo electrónico de contacto].
-</p>
-<p>
-    7. Enlaces a Otros Sitios Web
-</p>
-<p>
-    Nuestra aplicación puede contener enlaces a otros sitios web que no son operados por nosotros. No somos responsables de la privacidad de estos sitios y te recomendamos que revises sus políticas de privacidad.
-</p>
-<p>
-    8. Cambios a Esta Política de Privacidad
-</p>
-<p>
-    Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos sobre cualquier cambio publicando la nueva política en nuestra aplicación. Te recomendamos que revises periódicamente esta política para estar informado sobre cómo estamos protegiendo tu información.
-</p>
-<p>
-    9. Contacto
-</p>
-<p>
-    Si tienes preguntas o inquietudes sobre esta Política de Privacidad, contáctanos en:
-</p>
-<p>
-    Correo Electrónico: acondori.lazo@gmail.com
-</p>
-    
 
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0 0 1em;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <p><strong>Última actualización:</strong>11/09/2024</p>
+
+        <h2>1. Introducción</h2>
+        <p>Bienvenido a IdentityNetCore. Nos comprometemos a proteger tu privacidad y a garantizar que tu experiencia con nosotros sea segura y satisfactoria. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información personal cuando usas nuestra aplicación IdentityNetCore.</p>
+
+        <h2>2. Información que Recopilamos</h2>
+        <p>Recopilamos la siguiente información:</p>
+        <ul>
+            <li><strong>Información Personal:</strong> Incluye nombre, dirección de correo electrónico, y cualquier otra información que decidas proporcionarnos.</li>
+            <li><strong>Información de Uso:</strong> Incluye datos sobre cómo usas nuestra aplicación, como la fecha y hora de acceso, las páginas visitadas y otra información sobre el uso.</li>
+        </ul>
+
+        <h2>3. Cómo Usamos Tu Información</h2>
+        <p>Usamos la información recopilada para:</p>
+        <ul>
+            <li>Proporcionar, operar y mantener nuestra aplicación.</li>
+            <li>Mejorar y personalizar tu experiencia con nuestra aplicación.</li>
+            <li>Comunicarnos contigo, incluyendo enviar notificaciones y actualizaciones.</li>
+            <li>Realizar análisis para mejorar nuestro servicio.</li>
+        </ul>
+
+        <h2>4. Cómo Compartimos Tu Información</h2>
+        <p>No compartimos tu información personal con terceros, excepto en los siguientes casos:</p>
+        <ul>
+            <li><strong>Proveedores de Servicios:</strong> Podemos compartir información con proveedores de servicios que nos ayudan a operar nuestra aplicación, siempre que estos proveedores se comprometan a proteger tu información.</li>
+            <li><strong>Cumplimiento Legal:</strong> Podemos divulgar información si es necesario para cumplir con una obligación legal o para proteger nuestros derechos.</li>
+        </ul>
+
+        <h2>5. Seguridad</h2>
+        <p>Implementamos medidas de seguridad para proteger tu información personal. Sin embargo, ninguna transmisión de datos a través de Internet o método de almacenamiento electrónico es 100% seguro, por lo que no podemos garantizar una seguridad absoluta.</p>
+
+        <h2>6. Tus Derechos</h2>
+        <p>Dependiendo de tu ubicación, puedes tener ciertos derechos relacionados con tu información personal, como el acceso, la corrección o la eliminación de tus datos. Si deseas ejercer estos derechos, contáctanos a través de [dirección de correo electrónico de contacto].</p>
+
+        <h2>7. Enlaces a Otros Sitios Web</h2>
+        <p>Nuestra aplicación puede contener enlaces a otros sitios web que no son operados por nosotros. No somos responsables de la privacidad de estos sitios y te recomendamos que revises sus políticas de privacidad.</p>
+
+        <h2>8. Cambios a Esta Política de Privacidad</h2>
+        <p>Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos sobre cualquier cambio publicando la nueva política en nuestra aplicación. Te recomendamos que revises periódicamente esta política para estar informado sobre cómo estamos protegiendo tu información.</p>
+
+        <h2>9. Contacto</h2>
+        <p>Si tienes preguntas o inquietudes sobre esta Política de Privacidad, contáctanos en: acondori.lazo@gmail.com</p>
+        <ul>
+            <li><strong>Correo Electrónico:</strong>acondori.lazo@gmail.com</li>            
+        </ul>
+    </div>
+</body>
+</html>
