@@ -30,6 +30,14 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.SignIn.RequireConfirmedEmail = true;
 });
 
+//builder.Configuration.AddUserSecrets<Program>();
+
+builder.Services.AddAuthentication().AddFacebook(options =>
+{
+    options.AppId = builder.Configuration["FacebookAppId"];
+    options.AppSecret = builder.Configuration["FacebookAppSecret"];
+});
+
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Identity/SignIn";
